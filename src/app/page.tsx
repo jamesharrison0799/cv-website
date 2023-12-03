@@ -64,14 +64,14 @@ export default function Home() {
 
           <div className='container basis-1/3 py-8 flex justify-center items-center'>
             <a href={generalData.contacts[1].href}>
-            <Image
-              src={generalData.avatar}
-              width={120}
-              height={120}
-              className="rounded-full object-cover object-right"
-              alt={'Picture of James Harrison, he&apos;s a cool lookin&apos; fella!'}
-              
-            />
+              <Image
+                src={generalData.avatar}
+                width={120}
+                height={120}
+                className="rounded-full object-cover object-right"
+                alt={'Picture of James Harrison, he&apos;s a cool lookin&apos; fella!'}
+
+              />
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function Home() {
 
         <div className="divider"></div>
         <section>
-          <div className="flex flex-row">
+          <div className="flex flex-col text-center md:flex-row md:text-left">
             {generalData.lists.map((item, index) => {
               return (
                 <div key={index} className="basis-1/3">
@@ -110,7 +110,7 @@ export default function Home() {
                     <ul>
                       {item.list.map((listItem, index) => {
                         return (
-                          <li key={index}>{listItem}</li>
+                          <li className='list-disc list-inside' key={index} >{listItem}</li>
                         )
                       })}
                     </ul>
@@ -125,10 +125,10 @@ export default function Home() {
       </main>
       <footer className="footer items-center p-4 bg-base-300 text-base-content">
         <aside className="items-center grid-flow-col">
-          <p>Made by the man himself, using typescript, next.js, tailwind, and a pinch of peace and love. ✌️ </p>
+          <p>Made by the man himself, using typescript, next.js, tailwind, and peace and love. ✌️ </p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-        <a href="https://github.com/jamesharrison0799/cv-website.git" className='font-bold'>Source Code</a>
+          <a href="https://github.com/jamesharrison0799/cv-website.git" className='font-bold'>Source Code</a>
           {/* <a href={generalData.contacts[1].href}>
             <Image
             src={"public/github-mark.svg"}
