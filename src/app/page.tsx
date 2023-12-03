@@ -125,7 +125,7 @@ export default function Home() {
       </main>
       <footer className="footer items-center p-4 bg-base-300 text-base-content">
         <aside className="items-center grid-flow-col">
-          <p>Made by the man himself, using typescript, next.js, tailwind, and peace and love. ✌️ </p>
+          <p>Made by the man himself, using typescript, next.js, tailwind, peace and love. ✌️ </p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a href="https://github.com/jamesharrison0799/cv-website.git" className='font-bold'>Source Code</a>
