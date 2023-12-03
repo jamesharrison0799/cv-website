@@ -23,16 +23,14 @@ export const education = [
         location: "Liverpool",
         time: {
             start: {
-                year: 2022
+                year: 2016
             },
             end: {
-                year: 2023
+                year: 2018
             }
         },
         details: [
-            "Engaged in learning to develop understanding of Discrete Mathematics, Introduction to Programming, Computer Systems, Computer Science workshop, Data Modelling, Introduction to Web Development, Personal and Professional Development",
-            "Achieved a Certificate of Higher Education with Merit",
-            "Discontinued studies for personal reasons"
+            "Grades for CTEC Media Studies (2 part) and CTEC Computing with Distinction, Distinction*, Distinction*"
         ]
     }
 
