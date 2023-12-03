@@ -101,7 +101,7 @@ export default function Home() {
           <div className="flex flex-row">
             {generalData.lists.map((item, index) => {
               return (
-                <div className="basis-1/3">
+                <div key={index} className="basis-1/3">
                   <h1 className='font-bold text-2xl py-4' key={index}>{item.label}</h1>
                   <div>
                     <ul>
