@@ -39,6 +39,27 @@ export const education = [
 
 ]
 
+// ADD A NEW SECTION:
+// {
+//     establishment: "West Derby Sixth Form",
+//     course: null,
+//     location: "Liverpool",
+//     time: {
+//         start: {
+//             year: 2022
+//         },
+//         end: {
+//             year: 2023
+//         }
+//     },
+//     details: [
+//         "",
+//
+//     ]
+// }
+
+
+
 
 export type Education = {
     establishment: string;

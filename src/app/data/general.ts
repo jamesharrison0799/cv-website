@@ -23,4 +23,34 @@ export const generalData = {
             href: "https://www.linkedin.com/in/jharrison123/",
         },
     ],
+    lists:[
+        {
+            label:"Skills",
+            list:[
+                "Programming (Python, Java, JS, PHP)",
+                "E-Commerce & Point of Sale",
+                "Web Development & CMS",
+                "Database / SQL",
+                "Photography"
+            ]
+        },
+        {
+            label:"Interests",
+            list:[
+                "Motorsports",
+                "Motorcycle Maintenace and Fabircation",
+                "Photography",
+                "Smart Home Intergration",
+                "DIY / Restoration",
+                "Driving / Motorcycle Roadcraft"
+            ]
+        },
+        {
+            label:"Certificates",
+            list:[
+                "NCFE L2 - Understading Climate Change and Envrionmental Awareness"
+            ]
+        }
+    ]
+        
 };
