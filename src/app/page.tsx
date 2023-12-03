@@ -105,7 +105,7 @@ export default function Home() {
             {generalData.lists.map((item, index) => {
               return (
                 <div key={index} className="basis-1/3">
-                  <h1 className='font-bold text-2xl py-4' key={index}>{item.label}</h1>
+                  <h1 className='font-bold text-2xl py-4 pt-6' key={index}>{item.label}</h1>
                   <div>
                     <ul>
                       {item.list.map((listItem, index) => {
