@@ -1,7 +1,7 @@
 export const generalData = {
     name: "James Harrison",
     avatar: "https://github.com/jamesharrison0799.png",
-    tagline: "Dynamic Self Starter - All round nice fella",
+    tagline: "Dynamic self-starter with interests and capabilities in computing and development, photography and customer-facing activity.",
     website: "https://www.j-harrison.com",
     address: "",
     postcode: "",
