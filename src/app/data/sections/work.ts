@@ -72,7 +72,7 @@ type TimePeriod = {
     },
     end: {
         month: string | null;
-        year: number;
+        year: number | null;
     }
 
 };

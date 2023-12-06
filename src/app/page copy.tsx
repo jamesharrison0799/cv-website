@@ -56,7 +56,7 @@ const EducationData: React.FC<EducationProps> = ({ establishment, course, locati
 export default function Home() {
   return (
     <>
-      <main className='container mx-auto px-8 mb-24'>
+      <main className='container mx-auto px-8 mb-24'> {/* dont forget about that padding knob ed*/}
         <div className='flex flex-row items-center'>
           <div className='basis-2/3 py-8'>
             <h1 className='font-bold text-4xl py-4 dark:text-white'>{generalData.name}</h1>
@@ -81,7 +81,6 @@ export default function Home() {
 
         </div>
         <div className="divider"></div>
-        {/* Education */}
         <section>
           <h1 className="font-bold text-2xl">Experience</h1>
           <div className="m-10">
