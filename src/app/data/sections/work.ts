@@ -9,8 +9,8 @@ export const workExperience = [
                 year: 2022
             },
             end: {
-                month: "September",
-                year: 2023
+                month: null,
+                year: null
             }
         },
         details: [
@@ -50,7 +50,7 @@ export const workExperience = [
                 year: 2017
             },
             end: {
-                month: "September",
+                month: "S",
                 year: 2023
             }
         },

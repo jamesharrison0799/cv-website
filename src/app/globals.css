@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://use.typekit.net/xgt1gvj.css");
+
+body {
+    font-family: "Proxima Nova";
+  }
